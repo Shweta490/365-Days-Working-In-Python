@@ -1,8 +1,8 @@
 #Python Program to implement Bubble Sort
 
 def bubbleSort(arr):
-    for _ in range(len(arr)):
-        for index in range(len(arr)-1):
+    for i in range(len(arr)):
+        for index in range(len(arr)-i-1):
             if arr[index] > arr[index+1]:
                 arr[index],arr[index+1] = arr[index+1],arr[index]
     return arr
