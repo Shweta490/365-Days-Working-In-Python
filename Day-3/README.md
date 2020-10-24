@@ -1,6 +1,6 @@
 # Sorting Algorithms
 
-* Insertion Sort
+# * Insertion Sort
 
 Following are some of the important characteristics of Insertion Sort:<br/>
 
